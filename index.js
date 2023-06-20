@@ -6,3 +6,5 @@ function factorial(n){
 }
 
 console.log(factorial(5));
+
+console.log("Hello world with a new perspective")
