@@ -1,7 +1,11 @@
 function countOccurance(str) {
   let freq = {};
   for (let char of str.toLowerCase()) {
-    freq[char] = (freq[char] || 0) + 1;
+    if (!freq[char]) {
+      freq[char] = 1;
+    } else {
+      freq[char] = freq[char] + 1;
+    }
   }
   return freq;
 }
