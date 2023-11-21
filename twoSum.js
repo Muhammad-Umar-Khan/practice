@@ -1,13 +1,21 @@
-function twoSum(arr, num) {
-  let c1 = 0;
-  let c2 = c1 + 1;
-  for (let i = 0; i <= arr.length; i++) {
-    if (arr[c1] + arr[c2] == num) {
-      console.log(arr[c1], arr[c2]);
-      return;
+
+function twoSum(nums, target) {
+  const numMap = {};
+
+  for (let i = 0; i < nums.length; i++) {
+    const complement = target - nums[i];
+
+    if (complement in numMap) {
+      // Found a pair that adds up to the target
+      return [numMap[complement], i];
     }
-    c1++;
+
+    // Store the current number and its index in the map
+    numMap[nums[i]] = i;
   }
+
+  // No solution found
+  return null;
 }
 
-console.log(twoSum([2, 3, 1, 4], 7));
+console.log(twoSum([2, 7, 11, 15], 9));
