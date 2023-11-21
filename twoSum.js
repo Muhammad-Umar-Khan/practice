@@ -1,4 +1,3 @@
-
 function twoSum(nums, target) {
   const numMap = {};
 
@@ -6,15 +5,10 @@ function twoSum(nums, target) {
     const complement = target - nums[i];
 
     if (complement in numMap) {
-      // Found a pair that adds up to the target
       return [numMap[complement], i];
     }
-
-    // Store the current number and its index in the map
     numMap[nums[i]] = i;
   }
-
-  // No solution found
   return null;
 }
 
