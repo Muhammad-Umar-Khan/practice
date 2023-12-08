@@ -1,6 +1,6 @@
 let myMap = {};
 
-// Add key-value pairs
+// Add key value pair
 myMap["key1"] = "value1";
 myMap["key2"] = "value2";
 myMap["key3"] = "value3";
