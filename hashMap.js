@@ -5,7 +5,6 @@ myMap["key1"] = "value1";
 myMap["key2"] = "value2";
 myMap["key3"] = "value3";
 
-// Access values using keys
 console.log(myMap["key1"]); // Output: value1
 console.log(myMap["key2"]); // Output: value2
 
