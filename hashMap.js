@@ -9,7 +9,7 @@ console.log(myMap["key1"]);
 console.log(myMap["key2"]);
 
 console.log("key3" in myMap);
-console.log("key4" in myMap); // Output: false
+console.log("key4" in myMap);
 
 // Remove a key-value pair
 delete myMap["key2"];
