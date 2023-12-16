@@ -6,9 +6,9 @@ myMap["key2"] = "value2";
 myMap["key3"] = "value3";
 
 console.log(myMap["key1"]);
-console.log(myMap["key2"]); // Output: value2
+console.log(myMap["key2"]);
 
-console.log("key3" in myMap); // Output: true
+console.log("key3" in myMap);
 console.log("key4" in myMap); // Output: false
 
 // Remove a key-value pair
