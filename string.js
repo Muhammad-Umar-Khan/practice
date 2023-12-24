@@ -13,7 +13,6 @@ function findCombinationsFromText(inputText, products) {
   const models = tags.filter((tag) => tag.startsWith("Model_"));
   const diagrams = tags.filter((tag) => tag.startsWith("Diagram_"));
 
-  // Validate prefixes and generate combinations enforcing the hierarchy
   const tagCombinations = [];
   for (let r = 1; r <= groups.length; r++) {
     const groupCombinations = getCombinations(groups, r);
