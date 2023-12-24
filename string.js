@@ -1,5 +1,4 @@
 function findCombinationsFromText(inputText, products) {
-  // Extract tags from the input text
   const sanitizedInput = inputText
     .replace(/[^a-zA-Z0-9_-]+/g, "-")
     .replace(/^-|-$/g, "");
