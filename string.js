@@ -30,7 +30,6 @@ function findCombinationsFromText(inputText, products) {
             for (let m = 0; m <= diagrams.length; m++) {
               const diagramCombinations = getCombinations(diagrams, m);
 
-              // Combine combinations enforcing the hierarchy and validating prefixes
               for (const groupCombination of groupCombinations) {
                 for (const categoryCombination of categoryCombinations) {
                   for (const subcategoryCombination of subcategoryCombinations) {
