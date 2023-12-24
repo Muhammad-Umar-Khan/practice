@@ -4,7 +4,6 @@ function findCombinationsFromText(inputText, products) {
     .replace(/^-|-$/g, "");
   const tags = sanitizedInput.split(",").map((tag) => tag.trim());
 
-  // Split tags into groups, categories, subcategories, makes, models, and diagrams
   const groups = tags.filter((tag) => tag.startsWith("Group_"));
   const categories = tags.filter((tag) => tag.startsWith("Category_"));
   const subcategories = tags.filter((tag) => tag.startsWith("Subcategory_"));
