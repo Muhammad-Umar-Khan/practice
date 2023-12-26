@@ -93,8 +93,6 @@ function getCombinations(arr, r) {
   return combinations;
 }
 
-// Rest of the code remains the same...
-
 // Example usage
 const products = [
   {
