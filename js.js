@@ -1,4 +1,4 @@
-let names = ["Umar", "Khan", "from"];
+let names = ["Umar", "Khan", "Mardan"];
 for (let name of names) {
   console.log("Current item is", name);
 }
