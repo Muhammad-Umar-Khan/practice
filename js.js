@@ -14,5 +14,5 @@ function containsDuplicates(arr) {
 const numbersWithDuplicates = [1, 2, 3, 4, 5, 2];
 const uniqueNumbers = [1, 2, 3, 4, 5];
 
-console.log(containsDuplicates(numbersWithDuplicates)); // Output: true
+console.log(containsDuplicates(numbersWithDuplicates)); // Output:
 console.log(containsDuplicates(uniqueNumbers));
