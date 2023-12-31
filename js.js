@@ -5,7 +5,7 @@
 
 // console.log(names.forEach((name) => name.includes("a")));
 // let info = names.filter((name) => name.includes("a"));
-// console.log(info);
+console.log(info);
 function containsDuplicates(arr) {
   const uniqueSet = new Set(arr);
   console.log("Set is", uniqueSet);
