@@ -5,7 +5,6 @@ function reverse(number) {
     number = Math.floor(number / 10);
     finalOutput = Math.floor(finalOutput * 10 + lastInt);
   }
-  console.log(finalOutput);
 }
 
-reverse(123);
+console.log(reverse(123));
