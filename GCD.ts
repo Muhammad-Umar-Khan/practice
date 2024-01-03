@@ -11,7 +11,6 @@ function findGCD(a: number, b: number): number {
   return a;
 }
 
-// Example usage:
 const num1 = 48;
 const num2 = 18;
 const gcd = findGCD(num1, num2);
