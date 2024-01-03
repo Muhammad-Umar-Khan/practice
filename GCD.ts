@@ -1,5 +1,4 @@
 function findGCD(a: number, b: number): number {
-  // Ensure both numbers are positive
   a = Math.abs(a);
   b = Math.abs(b);
 
