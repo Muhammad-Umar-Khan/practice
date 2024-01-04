@@ -1,4 +1,4 @@
-function findGCD(a: number, b: number): number {
+function findGCD(a, b) {
   a = Math.abs(a);
   b = Math.abs(b);
 
