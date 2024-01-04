@@ -11,8 +11,8 @@ function findGCD(a, b) {
   return a;
 }
 
-const num1 = 12;
-const num2 = 8;
+const num1 = 24;
+const num2 = 16;
 const GCD = findGCD(num1, num2);
 
 console.log(`GCD of ${num1} and ${num2} is: ${GCD}`);
