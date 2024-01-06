@@ -3,4 +3,4 @@ function fibonacci(n) {
 }
 
 const result = fibonacci(6);
-console.log(result); // Output: 8
+console.log(result);
