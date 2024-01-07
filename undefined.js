@@ -1,5 +1,5 @@
 const person = {
-  name: "Umar",
+  name: "Umar Khan",
   phone: "03162047654",
   info: () => this.name + this.phone,
 };
