@@ -6,7 +6,6 @@ function speakText() {
     const voices = window.speechSynthesis.getVoices();
     utterance.voice = voices[3];
     window.speechSynthesis.speak(utterance);
-  } else {
-    alert("Please enter some text to speak.");
+  }ert("Please enter some text to speak.");
   }
 }
