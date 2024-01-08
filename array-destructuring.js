@@ -1,3 +1,3 @@
 const students = ["Alex", "Bob", "Charlie", "Jushua"];
-const [first] = students;
-console.log("First student is", first);
+const [first, ,third] = students;
+console.log("First student is", first, "third student is", third);
