@@ -5,3 +5,4 @@ const copy = students.slice(0, 2);
 const SPLICE = students.splice(0, 1, "Umar");
 console.log(SPLICE);
 const arrayHas = students.includes("Alex");
+console.log("Array had Alex", arrayHas);
