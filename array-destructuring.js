@@ -8,4 +8,4 @@ console.log(SPLICE);
 console.log("Array had Alex", arrayHas);
 const nums = [12, 23, 34, 45, 45];
 const sum = nums.reduce((accum, currentValue) => accum + currentValue, 0);
-console.log("Sum of the", sum);
+console.log(sum);
