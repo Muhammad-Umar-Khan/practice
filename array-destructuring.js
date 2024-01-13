@@ -6,6 +6,6 @@ const copy = students.slice(0, 2);
 const SPLICE = students.splice(0, 1, "Umar");
 console.log(SPLICE);
 console.log("Array had Alex", arrayHas);
-const nums = [12, 23, 34, 45, 45];
-const sum = nums.reduce((accum, currentValue) => accum + currentValue, 0);
+const nums = [1, 2, 3, 4, 5, 6];
+const sum = nums.reduce((accum, currentValue) => accum + currentValue, 2);
 console.log(sum);
