@@ -10,4 +10,4 @@ const nums = [1, 2, 3, 4, 5, 6];
 const sum = nums.reduce((accum, currentValue) => accum + currentValue, 2);
 console.log(sum);
 const newArray = students.unshift("Umar");
-console.log("New array is", students);
+console.log("New array", students);
